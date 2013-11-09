@@ -1,0 +1,30 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:lucs="lucs://www.cs.columbia.edu/">
+  <rdf:Description rdf:about="lucs://www.cs.columbia.edu/zigbee">
+    <lucs:area rdf:resource="lucs://www.cs.columbia.edu/room5"/>
+    <lucs:area rdf:resource="lucs://www.cs.columbia.edu/null"/>
+    <lucs:area rdf:resource="lucs://www.cs.columbia.edu/room4"/>
+    <lucs:area rdf:resource="lucs://www.cs.columbia.edu/room3"/>
+    <lucs:area>
+      <rdf:Description rdf:about="lucs://www.cs.columbia.edu/room1">
+        <lucs:resource>
+          <rdf:Description rdf:about="lucs://www.cs.columbia.edu/device11">
+            <lucs:attrib2>value3</lucs:attrib2>
+            <lucs:attrib1>value2</lucs:attrib1>
+          </rdf:Description>
+        </lucs:resource>
+      </rdf:Description>
+    </lucs:area>
+    <lucs:area>
+      <rdf:Description rdf:about="lucs://www.cs.columbia.edu/room2">
+        <lucs:resource>
+          <rdf:Description rdf:about="lucs://www.cs.columbia.edu/device21">
+            <lucs:attrib1>value1</lucs:attrib1>
+            <lucs:attrib2>value2</lucs:attrib2>
+          </rdf:Description>
+        </lucs:resource>
+      </rdf:Description>
+    </lucs:area>
+  </rdf:Description>
+</rdf:RDF>
