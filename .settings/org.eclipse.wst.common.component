@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="intelligent_home_appliance">
+    <wb-module deploy-name="IntelligentHomeAppliance">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="intelligent_home_appliance"/>
-        <property name="java-output-path" value="/intelligent_home_appliance/build/classes"/>
+        <property name="java-output-path" value="/IntelligentHomeAppliance/build/classes"/>
+        <property name="context-root" value="IntelligentHomeAppliance"/>
     </wb-module>
 </project-modules>
